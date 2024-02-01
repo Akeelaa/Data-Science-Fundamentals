@@ -1,0 +1,14 @@
+""""programe"""
+
+data_2D = [
+    [1,2,3], #list
+    [4,5,6],
+    [7,8,9]
+]
+total_sum = 0
+
+for row in data_2D:
+    for value in row:
+        total_sum += value
+        print(f"total sum of the values contained in data_2d is {total_sum}")
+
